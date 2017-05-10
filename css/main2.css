@@ -16,13 +16,18 @@ div .pirmas, .antras, .trecias {
     text-align: center;
 
 
+
+
 }
 
 div a{
     color: white;
+    text-decoration: none;
+
 
 
 }
+
 .antraste {
     text-align: center;
     color: white;
