@@ -1,0 +1,46 @@
+body{
+    background-color: lightblue;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+p {
+    font-family: Verdana;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+}
+.center {
+    text-align: center;
+    color: red;
+}
+#idelementas {
+    text-align: right;
+    color: aquamarine;
+    position: static;
+    top: 0px;
+    right: 0px;
+    display: inline-block;
+    float: right;
+}
+
+a{
+    display: inline;
+    position: relative;
+    left: 500px;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    right: 700px;
+    width: auto;
+
+}
+.menu, .body, .antraste {
+    border: 1px solid black;
+}
+.body {
+    width: auto;
+    height:auto;
+}
