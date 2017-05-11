@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>404 error page</title>
+<meta name="robots" content="noindex,follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<link href="css/style-1.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+	<!-----start-wrap--------->
+	<div class="wrap">
+		<!-----start-content--------->
+		<div class="content">
+			<!-----start-logo--------->
+			<div class="logo">
+				<h1><a href="/"><img src="images/logo.png"/></a></h1>
+				<span><img src="images/signal.png"/>Oops! The Page you requested was not found!</span>
+			</div>
+
+			<!-----end-logo--------->
+			<!-----start-search-bar-section--------->
+			<div class="buttom">
+				<div class="seach_bar">
+					<p>Go to <span><a href="/">Home</a></span> page or visit our top pages</p>
+					<!-----start-sear-box--------->
+
+
+
+<br><br><br><br>
+<ul class="clearfix">
+<li><ul>
+
+<li><a href="/wallpapers/galaxy.html">GALAXY</a></li>
+<li><a href="/wallpapers/music-images.html">MUSIC IMAGES</a></li>
+<li><a href="/wallpapers/hd-wallpaper-download.html">HD WALLPAPER DOWNLOAD</a></li>
+<li><a href="/wallpapers/white-wallpaper.html">WHITE WALLPAPER</a></li>
+<li><a href="/wallpapers/sun.html">SUN</a></li>
+<li><a href="/wallpapers/desktop-backgrounds.html">DESKTOP BACKGROUNDS</a></li>
+<li><a href="/wallpapers/spring-wallpaper.html">SPRING WALLPAPER</a></li>
+
+
+</ul>
+</li>
+<li>
+<ul>
+
+<li><a href="/wallpapers/desktop-wallpaper.html">DESKTOP WALLPAPER</a></li>
+<li><a href="/wallpapers/tumblr-wallpaper.html">TUMBLR WALLPAPER</a></li>
+<li><a href="/wallpapers/fire.html">FIRE</a></li>
+<li><a href="/wallpapers/hd-desktop-wallpaper.html">HD DESKTOP WALLPAPER</a></li>
+<li><a href="/wallpapers/space.html">SPACE</a></li>
+<li><a href="/wallpapers/hd-wallpapers-1080p.html">HD WALLPAPERS 1080P</a></li>
+<li><a href="/wallpapers/cool-wallpapers.html">COOL WALLPAPERS</a></li>
+
+
+</ul>
+</li>
+<li>
+<ul>
+
+<li><a href="/wallpapers/butterfly.html">BUTTERFLY</a></li>
+<li><a href="/wallpapers/supreme-wallpaper.html">SUPREME WALLPAPER</a></li>
+<li><a href="/wallpapers/beach.html">BEACH</a></li>
+<li><a href="/wallpapers/pics-of-cute-girls.html">PICS OF CUTE GIRLS</a></li>
+<li><a href="/wallpapers/image.html">IMAGE</a></li>
+<li><a href="/wallpapers/cars.html">CARS</a></li>
+<li><a href="/wallpapers/sad-image.html">SAD IMAGE</a></li>
+
+
+</ul>
+</li>
+<li><ul>
+<li><a href="/wallpapers/hd-wallpapers-for-pc.html">HD WALLPAPERS FOR PC</a></li>
+<li><a href="/wallpapers/marble-wallpaper.html">MARBLE WALLPAPER</a></li>
+<li><a href="/wallpapers/full-hd-wallpapers.html">FULL HD WALLPAPERS</a></li>
+<li><a href="/wallpapers/wallpapers-hd.html">WALLPAPERS HD</a></li>
+<li><a href="/wallpapers/girls.html">GIRLS</a></li>
+<li><a href="/wallpapers/backgrounds.html">BACKGROUNDS</a></li>
+<li><a href="/wallpapers/hd-wallpaper-pic.html">HD WALLPAPER PIC</a></li>
+
+
+</ul>
+</li>
+
+</ul>
+
+
+
+				</div>
+			</div>
+			<!-----end-sear-bar--------->
+		</div>
+
+
+
+
+
+
+
+
+		<!----copy-right-------------->
+	<p class="copy_right">&#169; 2016</p>
+	</div>
+	
+	<!---------end-wrap---------->
+</body>
+</html>

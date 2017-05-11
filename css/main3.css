@@ -7,50 +7,6 @@ body {
 
 }
 
-div .pirmas, .antras, .trecias {
-    display: inline;
-    position: relative;
-    color: white;
-    font-size: 80px;
-    padding-left: 200px;
-    text-align: center;
-    position: fixed;
-
-
-
-}
-
-
-div a{
-    color: white;
-    text-decoration: none;
-
-
-
-}
-.antraste {
-    text-align: center;
-    color: white;
-    font-size: 50px;
-    margin-top: 50px;
-
-
-
-
-}
-#antrasteid {
-    border-bottom: 1px solid red;
-    width: 50%;
-    margin: 0 auto;
-}
-.body {
-    text-align: center;
-    color: white;
-    font-size: 30px;
-}
-
-.footer {
-    text-align: center;
-    color: white;
-    margin-top: 350px;
+* {
+    border: 1px solid black;
 }
