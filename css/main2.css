@@ -7,7 +7,7 @@ body {
 
 }
 
-div .pirmas, .antras, .trecias {
+ .pirmas, .antras, .trecias {
     display: inline;
     position: relative;
     color: white;
@@ -53,4 +53,20 @@ div a{
     text-align: center;
     color: white;
     margin-top: 350px;
+}
+.tabs {
+    background-color: #DEB887;
+}
+.tab  {
+    float: left;
+    margin: 0 10px;
+    background-color:#DEB887 ;
+
+}
+.sheet {
+ display: none;
+    background-color: cornsilk;
+}
+.active {
+    background-color: cornsilk;
 }
