@@ -11,6 +11,36 @@
 
 </head>
 <body>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+
+            </button>
+
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#last">LAST SEEN</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#register">REGISTRUOTIS</a></li>
+                <li><a href="#contact">PRISIJUNGTI</a></li>
+
+
+            </ul>
+        </div>
+    </div>
+</nav>
+        </div>
+    </div>
+</nav>
 
 <div class="jumbotron text-center">
     <h2>Get your movie recommendation, instantly</h2></br>
@@ -26,12 +56,13 @@
                     <li> <a href="#"/> Nustebink mane! </a> </li>
                     <li> <a href="#"/> Išplėstinis filtras </a> </li>
                     <li> <a href="#"/> Top rekomendacijos </a> </li>
+
                 </ul>
             </div>
         </div>
         </form>
 </div>
-    <div class="container-fluid">
+    <div id="about" class="container-fluid">
         <h2>Apie projektą </h2>
         <h4>Lorem ipsum..</h4>
         <button class="btn btn-default btn-md">Susisiekti </button>
@@ -41,9 +72,10 @@
         <h4><strong>Lentelė:</strong> Our mission lorem ipsum..</h4>
 
     </div>
-<div class="container-fluid text-center">
+<div id ="last" class="container-fluid text-center">
     <h2>Last seen movies</h2> </br>
-</br>
+    </br>
+
      <div class="row text-center">
         <div class="col-sm-4">
             <div class="thumbnail">
@@ -59,6 +91,7 @@
                 <p>Short review, comment</p>
             </div>
         </div>
+
         <div class="col-sm-4">
             <div class="thumbnail">
                 <img src="https://s3.amazonaws.com/codecademy-content/projects/bolt-network/the-dark-knight.jpg" alt="Dark Knight">
@@ -66,6 +99,34 @@
                 <p>Dark Knight</p>
             </div>
         </div>
+     </div>
+
+     </br>
+         <div id="contact" class="container-fluid bg-grey">
+             <h2 class="text-center">CONTACT</h2>
+         </br>
+         </br>
+             <div class="row">
+
+                 <div class="col-sm-6 col-sm-offset-3">
+                     <div class="row">
+                         <div class="col-sm-6 form-group">
+                             <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                         </div>
+                         <div class="col-sm-6 form-group">
+                             <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                         </div>
+                     </div>
+                     <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                     <div class="row">
+                         <div class="col-sm-12 form-group">
+                             <button class="btn btn-default pull-right" type="submit">Send</button>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+
     </div>
 
 
