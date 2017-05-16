@@ -1,23 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="myApp">
 <head>
     <meta charset="UTF-8" />
     <title> Trecias puslapis </title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main5.css">
+    <link rel="stylesheet" href="css/trecias.css">
+
+
 
 </head>
 <body>
 <h1> Meniu </h1>
-<a href="index.html" title="Pirmasis puslapis"> Pirmas </a> |
-<a href="antras.html" title="Antrasis puslapis"> Antras </a> |
-<a href="trecias.html" title="Trečiasis puslapis"> Trečias </a> |
+
+<a href="index.html" title="Pirmasis puslapis"> Pirmas | </a>
+<a href="antras.html" title="Antrasis puslapis"> Antras | </a>
+<a href="trecias.html" title="Trečiasis puslapis"> Trečias | </a>
 <p> Trecias puslapis </p>
+<p> Paskutinis puslapis ... {{4+4}}</p>
+
+<br/>
+
+<label for="rod"> Rodyti / Slepti DIV: </label>
+<input id="rod" type="checkbox" ng-model="arRodyti" ng-init="arRodyti=false"/>
+<div ng-show="arRodyti">
+    Paslėptas tekstas
+    <input type="text" ng-model="vardas" ng-init="vardas='Jonas'"/>
+    <input type="text" ng-model="vardas"/>
+<br/>
+    Vardas:<p ng-bind="vardas"></p>
+Vardas:<p> {{vardas}}</p>
+</div>
+
+<label for="rod2"> Rodyti / Slepti Tabus: </label>
+<input id="rod2" type="checkbox" ng-model="arRodytiTabus" ng-init="arRodytiTabus=true"/>
+<div ng-show="arRodytiTabus" ng-controller="tabaiController">
+    {{tab}}
+
+    <div class="tabuliacija">
+        <div class="tabs">
+            <div class="tab" ng-class="{ active: isSet(1)}" ng-click="setTab(1)"> tab1 </div>
+            <div class="tab" ng-class="{ active: isSet(2)}" ng-click="setTab(2)"> tab2 </div>
+            <div class="tab" ng-class="{ active: isSet(3)}" ng-click="setTab(3)"> tab3 </div>
+
+
+        </div>
+
+        <div class="sheets">
+
+            <div class="sheet" ng-show="isSet(1)"> textas1 </div>
+            <div class="sheet" ng-show="isSet(2)"> textas2 </div>
+            <div class="sheet" ng-show="isSet(3)"> textas3 </div>
+
+
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+</div>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 <img src="/img/NBC_logo.svg.png" alt="Google logo"
      title ="NBC logo" width="45%"/>
-&nbsp; &nbsp;
+&nbsp;
 <img src="/img/NBC_logo.svg.png" alt="Google logo"
 title ="NBC logo" width="45%"/>"
 
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="js/myApp.js"></script>
+<script src="js/tabaiController.js"></script>
 </body>
 </html>
